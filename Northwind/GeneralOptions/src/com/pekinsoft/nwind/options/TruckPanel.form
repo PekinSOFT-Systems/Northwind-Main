@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+-->
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="instructionsLabel" pref="0" max="32767" attributes="0"/>
+                  <Component id="truckPanel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="instructionsLabel" min="-2" pref="97" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="truckPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="231" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="instructionsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="com/pekinsoft/nwind/options/Bundle.properties" key="TruckPanel.instructionsLabel.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="truckPanel">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Default Truck Information">
+              <ResourceString PropertyName="titleX" bundle="com/pekinsoft/nwind/options/Bundle.properties" key="TruckPanel.truckPanel.border.title" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="truckYearLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="truckVinLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="truckMakeLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="truckMakeField" min="-2" pref="194" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="truckModelLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="truckModelField" min="-2" pref="127" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="truckVinField" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="truckYearField" min="-2" pref="80" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="189" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="truckMakeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="truckMakeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="truckModelLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="truckModelField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="truckVinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="truckVinField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="truckYearLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="truckYearField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="43" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="truckMakeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+              <ResourceString bundle="com/pekinsoft/nwind/options/Bundle.properties" key="TruckPanel.truckMakeLabel.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="truckMakeField">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="40">
+                <StringItem index="0" value="Select Make..."/>
+                <StringItem index="1" value="Agrale"/>
+                <StringItem index="2" value="Autocar"/>
+                <StringItem index="3" value="Avia"/>
+                <StringItem index="4" value="Ford"/>
+                <StringItem index="5" value="Foton Auman"/>
+                <StringItem index="6" value="Freightliner"/>
+                <StringItem index="7" value="GMC"/>
+                <StringItem index="8" value="Hino"/>
+                <StringItem index="9" value="Hyundai Xcient"/>
+                <StringItem index="10" value="International"/>
+                <StringItem index="11" value="Isuzu"/>
+                <StringItem index="12" value="Iveco"/>
+                <StringItem index="13" value="Kenworth"/>
+                <StringItem index="14" value="KrAZ"/>
+                <StringItem index="15" value="LIAZ"/>
+                <StringItem index="16" value="Mack"/>
+                <StringItem index="17" value="MAN"/>
+                <StringItem index="18" value="Marmon"/>
+                <StringItem index="19" value="MAZ"/>
+                <StringItem index="20" value="Mercedes-Benz"/>
+                <StringItem index="21" value="Mitsubishi Fuso"/>
+                <StringItem index="22" value="Opel"/>
+                <StringItem index="23" value="Oshkosh"/>
+                <StringItem index="24" value="Peterbilt"/>
+                <StringItem index="25" value="Pierce"/>
+                <StringItem index="26" value="Praga"/>
+                <StringItem index="27" value="Reo"/>
+                <StringItem index="28" value="Republic"/>
+                <StringItem index="29" value="Scania"/>
+                <StringItem index="30" value="Skoda"/>
+                <StringItem index="31" value="SNVI"/>
+                <StringItem index="32" value="Sterling"/>
+                <StringItem index="33" value="Tata Prima"/>
+                <StringItem index="34" value="Tatra"/>
+                <StringItem index="35" value="Tesla"/>
+                <StringItem index="36" value="UD Quon"/>
+                <StringItem index="37" value="Volvo"/>
+                <StringItem index="38" value="Western Star"/>
+                <StringItem index="39" value="White"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="truckModelLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+              <ResourceString bundle="com/pekinsoft/nwind/options/Bundle.properties" key="TruckPanel.truckModelLabel.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="truckModelField">
+          <Properties>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+              <ResourceString bundle="com/pekinsoft/nwind/options/Bundle.properties" key="TruckPanel.truckModelField.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="truckVinLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+              <ResourceString bundle="com/pekinsoft/nwind/options/Bundle.properties" key="TruckPanel.truckVinLabel.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="truckVinField">
+          <Properties>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+              <ResourceString bundle="com/pekinsoft/nwind/options/Bundle.properties" key="TruckPanel.truckVinField.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="truckYearLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+              <ResourceString bundle="com/pekinsoft/nwind/options/Bundle.properties" key="TruckPanel.truckYearLabel.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="truckYearField">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+              <Format format="0000" subtype="-1" type="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+              <ResourceString bundle="com/pekinsoft/nwind/options/Bundle.properties" key="TruckPanel.truckYearField.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="truckYearFieldFocusLost"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
