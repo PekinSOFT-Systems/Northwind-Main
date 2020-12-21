@@ -33,6 +33,7 @@
             </module-dependencies>
             <public-packages>
                 <package>com.pekinsoft.nwind.utils</package>
+                <package>com.pekinsoft.nwind.utils.validation</package>
             </public-packages>
         </data>
     </configuration>
